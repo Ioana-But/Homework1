@@ -11,6 +11,12 @@ public class Person {
     // boolean hungry;
     boolean isHungry; // true, false
 
+    // move to Address (composition)
+    // don't forget to read about Strong / Weak composition in the presentation
+    String streetNumber;
+    String apartmentNumber;
+    String location;
+
     // by default if no constructors are declared there is A DEFAULT CONSTRUCTOR for each class
     public Person() {
 

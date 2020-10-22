@@ -14,6 +14,8 @@ public class Car {
     String mark;
 
     // something else instead of String ?
+
+    // COMPOSITION: the Car has a Color
     Color color;
 
     // 1918, 2020 (2021 ?)
