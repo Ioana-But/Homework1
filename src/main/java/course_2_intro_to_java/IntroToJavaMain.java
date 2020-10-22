@@ -4,7 +4,7 @@ package course_2_intro_to_java;
 // Runtime exceptions: issues when running the application
 
 // class declaration
-public class SecondExample {
+public class IntroToJavaMain {
 
     // single declaration
     int secondExampleVariable;
@@ -15,22 +15,33 @@ public class SecondExample {
     // SHIFT + F10
     public static void main(String... args) {
 
+        System.out.println(args[0]);
+        System.out.println(args[1]);
+        System.out.println(args[2]);
+
         int mainVariable;
 
+        System.out.print("Test");
         System.out.println("Test");
 
         // logic...5000 lines of code
     }
 
-    // access modifier
     // return type
     // name of the method
-    public void test() {
+    void test() {
 
         int testVariable;
     }
 
-    // method declaration
+    int test2() {
+
+        int testVariable;
+
+        return 2;
+    }
+
+    // method declaration with parameters
     public void printStringAndIncrementAnotherString(String abc) {
 
         System.out.println(abc);

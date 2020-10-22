@@ -2,9 +2,9 @@ package course_1_initial;
 
 import java.util.List;
 
-public class Example {
+public class InitialMain {
 
-    public static void main(String... args) {
+    public static void main(String[] args) {
 
         Integer a; // int
         String b;
@@ -13,7 +13,7 @@ public class Example {
     }
 
     // varargs
-//    public static void main2(String... args) {
+//    public static void main(String... args) {
 //
 //    }
 }

@@ -39,4 +39,8 @@ public class Car {
 
     // NO
 //    int sNumber;
+
+    public void drive() {
+
+    }
 }
