@@ -13,9 +13,11 @@ public class Person {
 
     // move to Address (composition)
     // don't forget to read about Strong / Weak composition in the presentation
-    String streetNumber;
-    String apartmentNumber;
-    String location;
+    private Address address;
+
+    // shouldn't be here! can later be hard to remove
+    // class creation should always match real life scenarios / objects
+    private Engine engine;
 
     // by default if no constructors are declared there is A DEFAULT CONSTRUCTOR for each class
     public Person() {
@@ -49,5 +51,13 @@ public class Person {
 
     public void run() {
 
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address newAddress) {
+        address = newAddress;
     }
 }

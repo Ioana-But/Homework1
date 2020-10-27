@@ -73,6 +73,15 @@ public class OOPMain {
         System.out.println(thirdHuman.surname);
 
         Person fourthHuman = new Person("xyz", "whatever", 20, false);
+
+        // set new address
+        Address firstAddress = new Address();
+        firstAddress.setApartmentNumber(20);
+
+        fourthHuman.setAddress(firstAddress);
+        thirdHuman.setAddress(firstAddress);
+
+        System.out.println(thirdHuman.getAddress().getApartmentNumber());
     }
 
     /**

@@ -39,6 +39,10 @@ public class Car {
     // A, C
     char type;
 
+    // a new random variable (later introduced)
+    // doesn't affect the system as a whole
+    String manufacturer;
+
     // NO
 //    int sNumber;
 
