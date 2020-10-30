@@ -18,4 +18,8 @@ public class Book {
         System.out.println("This is my book");
     }
 
+    public void printSomething() {
+        System.out.println("This is my book");
+    }
+
 }

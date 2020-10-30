@@ -56,5 +56,13 @@ public class JavaOOPMain {
         // LVL 0 -> Circle (SUPER -> Constructor Shape)
         // LVL 1 -> Shape (SUPER -> Constructor SpecialMathematics)
         // LVL 2 -> SpecialMathematics
+
+        // Novel -> Book
+        Novel exampleNovel = new Novel("SF", "Jane Doe");
+        exampleNovel.printSomething();
+
+
+        Book janeDoeBook = new Book("Jane Doe");
+        janeDoeBook.printSomething();
     }
 }
